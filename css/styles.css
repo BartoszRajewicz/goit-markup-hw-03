@@ -16,6 +16,19 @@ body {
   --background-photos-color: #f5f4fa;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
 .link {
   text-decoration: none;
 }
