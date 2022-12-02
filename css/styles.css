@@ -132,8 +132,15 @@ ul {
   margin-left: 50%;
 }
 
+.section{
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
 .paragraphs-list {
   list-style-type: none;
+  display: flex;
+  gap: 30px;
 }
 
 .header-paragraph {
@@ -144,6 +151,7 @@ ul {
   text-align: left;
   text-transform: uppercase;
   color: var(--headers-color);
+  padding-bottom: 10px;
 }
 .paragraph-items {
   font-size: 14px;
@@ -153,12 +161,6 @@ ul {
   display: block;
   color: var(--paragraph-color);
 }
-
-.images-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 
 
 .images-header {
