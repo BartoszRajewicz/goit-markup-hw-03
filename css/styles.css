@@ -153,16 +153,28 @@ ul {
   display: block;
   color: var(--paragraph-color);
 }
+
+.images-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+
+
 .images-header {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-left: 409px;
+  margin-right: 409px;
+  margin-bottom: 50px;
 }
 .images-list {
   list-style-type: none;
-  display: inline-flex;
+  display: flex;
+  gap: 30px;
 }
 .team {
   background-color: var(--background-photos-color);
