@@ -38,18 +38,15 @@ ul {
   margin: 0 auto;
 }
 
-* {
-  box-sizing: border-box;
+.container-head {
+  border-bottom: 1px solid #ececec;
 }
 
-.container-nav {
+.flex-nav-items {
   display: flex;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-left: 93px;
-  gap: 46px;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .control-item {
   font-size: 14px;
   font-weight: 500;
@@ -65,12 +62,6 @@ ul {
 .control-list {
   list-style-type: none;
   display: flex;
-}
-
-.container-head {
-  display: flex;
-  margin: 24px 215px 25px;
-  align-items: center;
 }
 
 .logo-front {
@@ -132,9 +123,9 @@ ul {
   margin-left: 50%;
 }
 
-.section{
-padding-top: 94px;
-padding-bottom: 94px;
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .paragraphs-list {
@@ -161,7 +152,6 @@ padding-bottom: 94px;
   display: block;
   color: var(--paragraph-color);
 }
-
 
 .images-header {
   font-size: 36px;
