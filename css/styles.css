@@ -33,6 +33,23 @@ ul {
   text-decoration: none;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container-nav {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 93px;
+  gap: 46px;
+}
+
 .control-item {
   font-size: 14px;
   font-weight: 500;
@@ -47,6 +64,13 @@ ul {
 
 .control-list {
   list-style-type: none;
+  display: flex;
+}
+
+.container-head {
+  display: flex;
+  margin: 24px 215px 25px;
+  align-items: center;
 }
 
 .logo-front {
