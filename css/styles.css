@@ -40,29 +40,41 @@ ul {
 
 .container-head {
   border-bottom: 1px solid #ececec;
+}
+
+.container-logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.flex-nav-items {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.flex-nav-items {
+.control-list {
+  list-style: none;
   display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 94px;
 }
+
 .control-item {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.17;
   text-decoration: none;
   color: var(--logo-color);
+  display: flex;
+  align-items: center;
+  margin-right: 46px;
 }
+
 .control-item:hover,
 .control-item:focus {
   color: var(--logo-sec-color);
-}
-
-.control-list {
-  list-style-type: none;
-  display: flex;
 }
 
 .logo-front {
@@ -81,6 +93,15 @@ ul {
   border: radius 4px;
   color: var(--logo-color);
   font-weight: 700;
+}
+
+.container-contact {
+  display: flex;
+  gap: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 371px;
+  align-items: center;
 }
 
 .contact-item {
