@@ -120,8 +120,6 @@ ul {
 
 .first-section {
   background-color: var(--background-section-color);
-  padding-top: 80px;
-  padding-bottom: 94px;
 }
 
 .header-primary {
@@ -130,6 +128,10 @@ ul {
   text-align: center;
   text-transform: uppercase;
   color: var(--text-color);
+  display: flex;
+  align-items: center;
+  padding: 200px 452px 280px;
+
 }
 
 .button {
@@ -142,7 +144,13 @@ ul {
   line-height: 1.88;
   cursor: pointer;
   align-items: center;
-  margin-left: 50%;
+
+}
+
+.button-section{
+  display: flex;
+  width: 200px;
+  padding: 30px 700px 200px;
 }
 
 .section {
