@@ -40,12 +40,13 @@ ul {
 
 .container-head {
   border-bottom: 1px solid #ececec;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .flex-nav-items {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 .control-item {
   font-size: 14px;
