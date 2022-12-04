@@ -333,8 +333,12 @@ ul {
   background: var(--text-color);
 }
 
+.industry-img{
+  
+}
 .industry-caption{
 padding: 20px 24px;
+border: 1px solid #EEEEEE
 }
 
 
