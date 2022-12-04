@@ -361,8 +361,10 @@ justify-content: center;
   display: block;
   color: var(--contact-color);
   text-decoration: none;
+  margin-top: 9px;
 }
 .address-item:hover,
 .address-item:focus {
   color: var(--logo-sec-color);
 }
+.address-item:not(:last-child) {margin-bottom: 9px; }
