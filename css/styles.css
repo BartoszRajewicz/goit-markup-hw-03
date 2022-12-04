@@ -209,15 +209,22 @@ ul {
   display: flex;
   gap: 30px;
 }
+
+*{
+  box-sizing: border-box;
+}
 .team {
   background-color: var(--background-photos-color);
+  padding-left: 15px;
+  padding-right: 15px;
+
 }
 
 
-.team.list{
+.team-list{
+  display: flex;
+  gap: 30px;
   list-style-type: none;
-
-
 }
 
 .team-header {
@@ -226,12 +233,18 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
-  padding-top: 94px;
   padding-bottom: 46px;
 }
 
 .team-member{
+  display:inline-block;
 background: var(--text-color);
+box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+
+
 }
 
 
@@ -241,7 +254,11 @@ background: var(--text-color);
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--headers-color);
+  display: block;
+  padding-left: 99px;
+  padding-right: 99px;
   padding-top: 30px;
+  
 
 }
 .team-job {
@@ -249,6 +266,10 @@ background: var(--text-color);
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--paragraph-color);
+  display: flex;
+justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 .contact-end {
   background-color: var(--background-section-color);
