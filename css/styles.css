@@ -120,6 +120,8 @@ ul {
 
 .first-section {
   background-color: var(--background-section-color);
+  padding-left: 252px;
+  padding-right: 252px;
 }
 
 .header-primary {
@@ -128,10 +130,9 @@ ul {
   text-align: center;
   text-transform: uppercase;
   color: var(--text-color);
-  display: flex;
   align-items: center;
-  padding: 200px 452px 280px;
-
+  padding-top: 200px;
+  padding-bottom: 30px;
 }
 
 .button {
@@ -142,15 +143,23 @@ ul {
   text-decoration: none;
   font-size: 16px;
   line-height: 1.88;
+  border-radius: 4px;
   cursor: pointer;
-  align-items: center;
-
+  width: 200px;
+  height: 50px;
 }
 
-.button-section{
+.button-name {
+  padding-top: 10px;
+  padding-right: 41px;
+  padding-bottom: 10px;
+  padding-left: 42px;
+}
+
+.button-section {
+  padding-bottom: 200px;
   display: flex;
-  width: 200px;
-  padding: 30px 700px 200px;
+  justify-content: center;
 }
 
 .section {
