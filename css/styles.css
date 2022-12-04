@@ -275,9 +275,14 @@ justify-content: center;
   color: var(--text-color);
 }
 .container-footer-logo{
-  padding: 60px 1040px 20px 15px ;
+  padding-top: 60px; 
+  padding-left: 15px;
+  padding-right: 1040px;
 
 
+}
+.address-item-place{
+  color: var(--text-color);
 }
 
 .logo-back-sec {
