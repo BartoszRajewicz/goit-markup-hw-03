@@ -320,7 +320,6 @@ ul {
 
 }
 
-
 .industry-list {
   list-style-type: none;
   display: flex;
@@ -329,16 +328,17 @@ ul {
   padding-bottom: 94px;
 }
 
+
 .industry-panel{
   background: var(--text-color);
 }
 
-.industry-img{
-  
-}
+
 .industry-caption{
 padding: 20px 24px;
-border: 1px solid #EEEEEE
+border-left: 1px solid var(--bodrer-color);
+border-right: 1px solid var(--bodrer-color);
+border-bottom: 1px solid var(--bodrer-color);
 }
 
 
