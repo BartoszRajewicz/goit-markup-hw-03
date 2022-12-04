@@ -289,10 +289,15 @@ ul {
   font-weight: 700;
 }
 
+.button-container{
+  padding-top: 94px;
+}
+
 .button-list {
   list-style-type: none;
   display: flex;
   justify-content: center;
+  padding-bottom: 34px;
 }
 
 .button-items {
@@ -314,15 +319,16 @@ ul {
 .button-items:focus {
   background-color: var(--logo-sec-color);
   color: var(--text-color);
+
 }
+
+
 .industry-list {
   list-style-type: none;
   display: flex;
-}
-
-
-.industry-grid{
   flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 94px;
 }
 
 
