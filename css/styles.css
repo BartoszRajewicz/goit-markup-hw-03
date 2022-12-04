@@ -239,14 +239,10 @@ ul {
 .team-member{
   display:inline-block;
 background: var(--text-color);
-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+box-shadow: 0px 2px 1px 3px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 1px 1px 3px rgba(0, 0, 0, 0.14);
 box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-
-
-
 }
-
 
 .team-name {
   font-size: 16px;
@@ -277,6 +273,11 @@ justify-content: center;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
+}
+.container-footer-logo{
+  padding: 60px 1040px 20px 15px ;
+
+
 }
 
 .logo-back-sec {
