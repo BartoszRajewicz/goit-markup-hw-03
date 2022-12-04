@@ -347,8 +347,12 @@ justify-content: center;
   letter-spacing: 0.03em;
   text-align: left;
   text-decoration: none;
+  padding-top: 20px;
+  padding-right:939px;
+  padding-bottom: 60px;
+  padding-left: 15px;
+  
 }
-
 .address-item {
   font-size: 14px;
   line-height: 1.71;
