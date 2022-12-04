@@ -291,7 +291,8 @@ ul {
 
 .button-list {
   list-style-type: none;
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
 }
 
 .button-items {
@@ -316,7 +317,15 @@ ul {
 }
 .industry-list {
   list-style-type: none;
+  display: flex;
 }
+
+
+.industry-grid{
+  flex-wrap: wrap;
+}
+
+
 
 .industry-name {
   font-size: 18px;
