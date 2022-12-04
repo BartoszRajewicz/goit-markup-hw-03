@@ -14,6 +14,7 @@ body {
   --background-nav-color: #ffffff;
   --background-section-color: #2f303a;
   --background-photos-color: #f5f4fa;
+  --bodrer-color: #EEEEEE;
 }
 
 h1,
@@ -210,9 +211,6 @@ ul {
   gap: 30px;
 }
 
-* {
-  box-sizing: border-box;
-}
 .team {
   background-color: var(--background-photos-color);
   padding-left: 15px;
@@ -331,6 +329,13 @@ ul {
   padding-bottom: 94px;
 }
 
+.industry-panel{
+  background: var(--text-color);
+}
+
+.industry-caption{
+padding: 20px 24px;
+}
 
 
 .industry-name {
@@ -339,6 +344,8 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--headers-color);
+  padding-bottom: 4px;
+
 }
 
 .industry-item {
