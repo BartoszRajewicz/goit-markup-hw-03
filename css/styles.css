@@ -23,6 +23,7 @@ h4,
 h5,
 h6,
 p,
+figure,
 ul {
   margin: 0px;
   padding: 0px;
@@ -171,6 +172,7 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 30px;
+  padding-top: 94px;
 }
 
 .header-paragraph {
@@ -210,16 +212,28 @@ ul {
 .team {
   background-color: var(--background-photos-color);
 }
-.team-list {
+
+
+.team.list{
   list-style-type: none;
+
+
 }
+
 .team-header {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
+  padding-top: 94px;
+  padding-bottom: 46px;
 }
+
+.team-member{
+background: var(--text-color);
+}
+
 
 .team-name {
   font-size: 16px;
@@ -227,12 +241,13 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--headers-color);
+  padding-top: 30px;
+
 }
 .team-job {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-align: center;
   color: var(--paragraph-color);
 }
 .contact-end {
@@ -240,7 +255,6 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  text-align: left;
   color: var(--text-color);
 }
 
@@ -288,7 +302,6 @@ ul {
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
-  text-align: left;
   color: var(--headers-color);
 }
 
@@ -296,7 +309,7 @@ ul {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  text-align: left;
+  text-align: center;
   color: var(--contact-color);
 }
 
