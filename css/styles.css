@@ -47,6 +47,7 @@ ul {
 .container-logo {
   padding-top: 24px;
   padding-bottom: 25px;
+  padding-left: 15px;
 }
 
 .flex-nav-items {
@@ -102,7 +103,7 @@ ul {
   gap: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-left: 371px;
+  padding-left: 171px;
   align-items: center;
 }
 
