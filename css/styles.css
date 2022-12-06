@@ -14,7 +14,7 @@ body {
   --background-nav-color: #ffffff;
   --background-section-color: #2f303a;
   --background-photos-color: #f5f4fa;
-  --bodrer-color: #EEEEEE;
+  --bodrer-color: #eeeeee;
 }
 
 h1,
@@ -24,7 +24,6 @@ h4,
 h5,
 h6,
 p,
-figure,
 ul {
   margin: 0px;
   padding: 0px;
@@ -38,6 +37,8 @@ ul {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .container-head {
@@ -47,7 +48,6 @@ ul {
 .container-logo {
   padding-top: 24px;
   padding-bottom: 25px;
-  padding-left: 15px;
 }
 
 .flex-nav-items {
@@ -288,7 +288,7 @@ ul {
   font-weight: 700;
 }
 
-.button-container{
+.button-container {
   padding-top: 94px;
 }
 
@@ -318,7 +318,6 @@ ul {
 .button-items:focus {
   background-color: var(--logo-sec-color);
   color: var(--text-color);
-
 }
 
 .industry-list {
@@ -329,19 +328,16 @@ ul {
   padding-bottom: 94px;
 }
 
-
-.industry-panel{
+.industry-panel {
   background: var(--text-color);
 }
 
-
-.industry-caption{
-padding: 20px 24px;
-border-left: 1px solid var(--bodrer-color);
-border-right: 1px solid var(--bodrer-color);
-border-bottom: 1px solid var(--bodrer-color);
+.industry-caption {
+  padding: 20px 24px;
+  border-left: 1px solid var(--bodrer-color);
+  border-right: 1px solid var(--bodrer-color);
+  border-bottom: 1px solid var(--bodrer-color);
 }
-
 
 .industry-name {
   font-size: 18px;
@@ -350,7 +346,6 @@ border-bottom: 1px solid var(--bodrer-color);
   letter-spacing: 0.06em;
   color: var(--headers-color);
   padding-bottom: 4px;
-
 }
 
 .industry-item {
