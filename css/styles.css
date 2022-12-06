@@ -171,11 +171,15 @@ ul {
   padding-bottom: 94px;
 }
 
+.paragraph-section{
+  padding-top: 94px;
+}
+
 .paragraphs-list {
   list-style-type: none;
   display: flex;
   gap: 30px;
-  padding-top: 94px;
+
 }
 
 .header-paragraph {
