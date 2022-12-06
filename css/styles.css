@@ -44,7 +44,6 @@ ul {
 
 .container-head {
   border-bottom: 1px solid #ececec;
-
 }
 
 .container-logo {
@@ -136,7 +135,6 @@ ul {
   text-transform: uppercase;
   color: var(--text-color);
   align-items: center;
- 
 }
 
 .button {
@@ -171,16 +169,19 @@ ul {
   padding-bottom: 94px;
 }
 
-.paragraph-section{
+.paragraph-section {
   padding-top: 94px;
 }
 
 .paragraphs-list {
   list-style-type: none;
   display: flex;
-  gap: 30px;
-
 }
+
+.paragraphs-list li {
+  margin-right: 30px;
+}
+
 
 .header-paragraph {
   font-size: 14px;
