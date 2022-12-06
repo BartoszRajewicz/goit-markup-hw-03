@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--headers-color);
+  margin: 8px;
 }
 
 :root {
@@ -43,6 +44,7 @@ ul {
 
 .container-head {
   border-bottom: 1px solid #ececec;
+
 }
 
 .container-logo {
@@ -59,8 +61,6 @@ ul {
 .control-list {
   list-style: none;
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
   padding-left: 14px;
 }
 
@@ -104,8 +104,6 @@ ul {
 .container-contact {
   display: flex;
   gap: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
   align-items: center;
 }
 
@@ -127,6 +125,7 @@ ul {
   background-color: var(--background-section-color);
   padding-left: 252px;
   padding-right: 252px;
+  padding-top: 200px;
 }
 
 .header-primary {
@@ -136,8 +135,7 @@ ul {
   text-transform: uppercase;
   color: var(--text-color);
   align-items: center;
-  padding-top: 200px;
-  padding-bottom: 30px;
+ 
 }
 
 .button {
@@ -162,6 +160,7 @@ ul {
 }
 
 .button-section {
+  padding-top: 30px;
   padding-bottom: 200px;
   display: flex;
   justify-content: center;
