@@ -61,7 +61,7 @@ ul {
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-left: 94px;
+  padding-left: 14px;
 }
 
 .control-item {
@@ -72,7 +72,6 @@ ul {
   color: var(--logo-color);
   display: flex;
   align-items: center;
-  margin-right: 46px;
 }
 
 .control-item:hover,
