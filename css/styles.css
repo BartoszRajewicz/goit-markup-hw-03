@@ -79,6 +79,10 @@ ul {
   color: var(--logo-sec-color);
 }
 
+.control-list li {
+  margin-right: 46px;
+}
+
 .logo-front {
   font-family: "Raleway", sans-serif;
   font-style: bold;
