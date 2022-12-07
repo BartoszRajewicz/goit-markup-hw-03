@@ -299,13 +299,11 @@ ul {
   font-weight: 700;
 }
 
-.button-container {
-  padding-top: 94px;
-}
 
 .button-list {
   list-style-type: none;
   display: flex;
+  gap: 8px;
   justify-content: center;
   padding-bottom: 34px;
 }
@@ -318,7 +316,10 @@ ul {
   text-align: center;
   color: var(--headers-color);
   background-color: var(--background-photos-color);
+  width: 114px;
+  height: 38px;
   border: none;
+  border-radius: 4px;
   text-decoration: none;
   margin-left: 3px;
   margin-right: 3px;
@@ -341,6 +342,7 @@ ul {
 
 .industry-panel {
   background: var(--text-color);
+  margin: 0px;
 }
 
 .industry-caption {
