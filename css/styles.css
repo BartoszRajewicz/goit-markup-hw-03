@@ -236,6 +236,7 @@ ul {
 
 .team-member {
   display: inline-block;
+  justify-content: center;
   background: var(--text-color);
   box-shadow: 0px 2px 1px 3px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 1px 3px rgba(0, 0, 0, 0.14);
@@ -275,11 +276,14 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
-}
-.container-footer-logo {
   padding-top: 60px;
   padding-left: 15px;
-  padding-right: 1040px;
+  padding-right: 939px;
+  padding-bottom: 60px;
+  margin: 0px;
+}
+.container-footer-logo {
+  margin-bottom: 20px;
 }
 .address-item-place {
   color: var(--text-color);
@@ -370,10 +374,7 @@ ul {
   letter-spacing: 0.03em;
   text-align: left;
   text-decoration: none;
-  padding-top: 20px;
-  padding-right: 939px;
-  padding-bottom: 60px;
-  padding-left: 15px;
+
 }
 .address-item {
   font-size: 14px;
