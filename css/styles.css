@@ -102,7 +102,6 @@ ul {
   gap: 50px;
   padding-left: 171px;
   padding-right: 27px;
-
 }
 
 .contact-item {
@@ -218,16 +217,13 @@ ul {
 
 .team {
   background-color: var(--background-photos-color);
-  padding-left: 193px;
-  padding-right: 215px;
-  width: 1170px;
 }
 
 .team-list {
   display: flex;
   justify-content: center;
   list-style-type: none;
-  padding: 0px;
+  width: 1170px;
 }
 
 .team-header {
@@ -247,7 +243,6 @@ ul {
   box-shadow: 0px 1px 1px 3px rgba(0, 0, 0, 0.14);
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   margin-top: 0px;
-  margin-left: 0px;
   margin-left: 0px;
   margin-bottom: 0px;
   margin-right: 30px;
@@ -280,6 +275,8 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .container-footer-logo {
   margin-bottom: 20px;
