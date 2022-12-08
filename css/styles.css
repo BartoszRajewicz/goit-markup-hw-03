@@ -42,21 +42,28 @@ ul {
   padding-right: 15px;
 }
 
-.container-head {
+.site-nav {
   border-bottom: 1px solid #ececec;
+}
+
+.flex-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .flex-nav-items {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin: 0px;
 }
 
 .control-list {
-  list-style: none;
   display: flex;
   gap: 46px;
+  list-style: none;
+  padding-left: 93px;
 }
 
 .control-item {
@@ -65,8 +72,6 @@ ul {
   line-height: 1.17;
   text-decoration: none;
   color: var(--logo-color);
-  display: flex;
-  align-items: center;
 }
 
 .control-item:hover,
@@ -95,7 +100,9 @@ ul {
 .container-contact {
   display: flex;
   gap: 50px;
-  align-items: center;
+  padding-left: 171px;
+  padding-right: 27px;
+
 }
 
 .contact-item {
