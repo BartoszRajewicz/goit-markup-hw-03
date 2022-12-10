@@ -55,8 +55,8 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .flex-nav-items {
@@ -105,8 +105,6 @@ ul {
 .container-contact {
   display: flex;
   gap: 50px;
-  padding-left: 171px;
-  padding-right: 27px;
 }
 
 .contact-item {
@@ -123,7 +121,6 @@ ul {
   color: var(--logo-sec-color);
 }
 
-
 .first-section {
   background-color: var(--background-section-color);
   display: flex;
@@ -132,9 +129,8 @@ ul {
   padding-bottom: 280px;
 }
 
-
 .header-primary {
-  width: 696px;
+  max-width: 696px;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
